@@ -1,0 +1,16 @@
+.img-container{
+    margin-top: 100px;
+}
+.btn-container{
+    margin-bottom: 100px;
+}
+.Mbtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(145, 82, 55);
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}

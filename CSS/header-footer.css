@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color: black; 
+}
+.container-nav{
+    display: flex;
+    justify-content: center;
+    /* height: 80px; */
+}
+
+.custom-tog{
+    background-color:white !important ;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.navbar-container {
+	text-align: center;
+	padding: 10px;
+}
+.custom-link{
+    margin-left: 5vw;
+    color: white;
+    text-decoration: none;
+    font: 25px Raleway;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+.custom-link:hover, .custom-link:active{
+    text-decoration: none;
+    background: rgb(232,140,10);
+    background: linear-gradient(90deg, rgba(232,140,10,1) 0%, rgba(173,0,0,1) 50%, rgba(232,140,10,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-bottom: 3px solid white;
+}
+/* <--footer---> */
+
+.custom-col-1{
+    align-items: center;
+    margin-top: 100px;
+}
+.input-1{
+    display: flex;
+    width: 20vw;
+    height: 30px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+}
+.submit{
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+    padding: 10px 10px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 30px;
+}
+.custom-media{
+    margin-left: 10px;
+}
+.media-img{
+    width: 20px;
+    height: 20px;
+}
+h6{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.index-p{
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
